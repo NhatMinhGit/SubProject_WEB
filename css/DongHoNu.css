@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*/////   Top menu   /////*/
+.menu_top{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Menu_bottom*/
+.menu_bottom{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    background-color: #333333;
+    margin-top: 100px;
+    padding-top: 75px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.menu_bottom_unit{
+    line-height: 25px;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: #333333;
+}

@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*/////   Top menu   /////*/
+.menu_top{
+    display: flex;
+    flex-direction: column;
+}
+.menu_top_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-between;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+.menu_center_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-between;
+    padding-left: 17rem;
+    padding-right: 270px;
+}
+.menu_center_bottom_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-around;
+    
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.icon{
+    position: absolute;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
+}
+
+.margin_horizontal_5px{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.margin_top_20px{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.menu_about_us{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-left: 17rem;
+    padding-right: 270px;
+}
+.img_aboutUs{
+    width: 585px;
+    height: 420px;
+}
+.description_aboutUs{
+    width: 600px;
+    height: 300px;
+    align-self: center;
+    padding-left: 30px;
+}
+.font_size_small{
+    font-size: 15px;
+}
+.font_size_medium{
+    font-size: 25px;
+}
+.font_size_large{
+    font-size: 40px;
+}
+
+
+/*Menu_bottom*/
+.menu_bottom{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    background-color: #333333;
+    margin-top: 100px;
+    padding-top: 75px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.menu_bottom_unit{
+    line-height: 25px;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: #333333;
+}
+
+.SanPhamUnit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SanPham{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.SanPhamList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+.BTN_Them{
+    color: white;
+    background-color: #C89979;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.SanPham_Title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*DangKyThongTin*/
+.dangKy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    margin-top:  100px;
+    align-items: center;
+    padding-left: 270px;
+    padding-right: 270px;
+    border-top: 1px solid #333333;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+/*/////   Top menu   /////*/
+.menu_top{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.menu_top_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-between;
+    padding-left: 18.75%;
+    padding-right: 18.75%;
+}
+.search_menu{
+    justify-self: center;
+    align-self: center;
+    width: 23.6%;
+    
+}
+.search{
+    position: flex;
+    width: 100%;
+    height: 2.5rem;
+}
+.button{
+    width: 5%;
+    height: 2.5rem;
+    position: absolute;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
+}
+.menu_center_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-between;
+    padding-left: 18.75%;
+    padding-right: 18.75%;
+}
+
+.menu_center_bottom_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-around;
+    
+    padding-left: 25.7%;
+    padding-right: 25.7%;
+}
+
+.icon{
+    position: absolute;
+}
+.logo-mona-2{
+    width: 12.5rem;
+    height: 4.17rem;
+}
+
+.margin_horizontal_5px{
+    margin-left: auto;
+    margin-right: auto;
+}
+.margin_top_20px{
+    margin-top: 20px;
+}
+
+
+
+
+/*/////   Center slide menu   /////*/
+.font_size_small{
+    font-size: 15px;
+}
+.font_size_medium{
+    font-size: 25px;
+}
+.font_size_large{
+    font-size: 40px;
+}
+.slide_menu{
+    display: flex;
+    width: 100%;
+    height: 50rem;
+
+}
+.img_slide{
+    display: flex;
+    width: 100%;
+}
+.slide_menu_description{
+    
+    height: 48.6rem;
+    width: 83.3rem;
+    padding-top: 175px;
+    padding-left: 310px;
+    padding-right: 310px;
+    position: absolute;
+}
+
+.btn_XemSanPham{
+    border: 3px solid white;
+    background-color: #222222;
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+}
+
+
+
+
+
+
+/*/////   Bottom menu   /////*/
+.menu_bottom_top{
+    display: flex;
+    padding: 10%;
+    width: 83.3%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    justify-self: center;
+}
+
+/*BANNER1*/
+.banner{
+    width: 27%;
+    height: 25%;
+    position: absolute;
+}
+.word_banner{
+    height: 6.94rem;
+    width: 19.4rem;
+    padding: 20%;
+    position: relative;
+}
+.banner_unit{
+    display: flex;
+}
+.font_size_small_absolute{
+    font-size: 15px;
+    position: absolute;
+}
+.font_size_medium_absolute{
+    font-size: 25px;
+    position: absolute;
+}
+.font_size_large_absolute{
+    font-size: 40px;
+    position: absolute;
+}
+
+
+
+
+
+
+/*BANCHAY*/
+
+
+.menu_bottom_BanChay{
+    display: flex;
+    padding-left: 18.4%;
+    padding-right: 18.4%;
+    width: 83.3%;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu_BanChay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu_BanChay_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu_BanChay_description_unit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn_ThemVaoGio{
+    color: #fff;
+    background-color: #C89979;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 115px;
+}
+
+
+/*BANNER2*/
+.menu_bottom_center{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 83.3%;
+    height: 30rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.absolute_small_banner{
+    position: absolute;
+    width: 25%;
+    height: 23%;
+}
+.banner_unit{
+    display: block;
+    justify-content: space-between;
+}
+.word_small_banner{
+    height: 120px;
+    width: 270px;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+
+/*DangKyThongTin*/
+.dangKy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 9.375rem;
+    align-items: center;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
+    border-top: 1px solid #333333;
+}
+.dangKy_form{
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+}
+.form{
+    width: 70%;
+}
+
+.button_DK{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    font-size: small;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
+}
+
+
+/*Menu_bottom*/
+.menu_bottom{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #333333;
+    margin-top: 6.25rem;
+    padding-top: 5.2%;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
+}
+
+.menu_bottom_unit{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 25px;
+    word-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: #333333;
+}
+
+/*MOBILE*/
+@media (max-width:600px){
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /***TOP***/
+    .menu_top{
+        width: 100%;
+    }
+    .menu_center_bottom_top{
+        display: none;
+    }
+    .menu_top_top{
+        display: none;
+    }
+    .logo-mona-2{
+        align-self: center;
+        justify-self: center;
+    }
+    .margin_top_20px{
+        display: none;
+    }
+    .search_menu{
+        display: none;
+    }
+   
+    /*
+
+
+
+    /*SLIDE_MENU*/
+    .slide_menu{
+        display: none;
+    }
+    /*BANCHAY*/
+    .menu_bottom_BanChay{
+        width: 100%;
+    }
+    .menu_BanChay{
+        flex-direction: column;
+    }
+    /**/
+
+    .menu_bottom_top{
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        flex-direction: column;
+        
+    }
+    .banner_unit{
+        width: 80%;
+        align-self: center;
+    }
+    .banner{
+        width: 80%;
+    }
+
+    /**/
+
+    
+
+    .menu_bottom_center{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        width: 100%;
+        height: 40rem;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .absolute_small_banner{
+        width: 80%;
+        align-self: center;
+    }
+    /**/
+    .dangKy{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-top: 1px solid #333333;
+    }
+    .dangKy_form{
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        width: 80%;
+    }
+    .button_DK{
+        width: 20%;
+        height: 4.5%;
+        position: absolute;
+        font-size: small;
+        font-weight: 600;
+        background-color: #C89979;
+        border: none;
+        color: white;
+    }
+
+
+
+    /*Menu_bottom*/
+    .menu_bottom{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333333;
+        margin-top: 6.25rem;
+        justify-content: space-around;
+        padding: 5.2%;
+        
+    }
+
+    .menu_bottom_unit{
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 25px;
+        word-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        background-color: #333333;
+    }
+}

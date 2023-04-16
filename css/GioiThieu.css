@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+/*/////   Top menu   /////*/
+.menu_top{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.menu_top_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-between;
+    padding-left: 18.75%;
+    padding-right: 18.75%;
+}
+.search_menu{
+    justify-self: center;
+    align-self: center;
+    width: 23.6%;
+    
+}
+.search{
+    position: flex;
+    width: 100%;
+    height: 2.5rem;
+}
+.button{
+    width: 5%;
+    height: 2.5rem;
+    position: absolute;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
+}
+.menu_center_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-between;
+    padding-left: 18.75%;
+    padding-right: 18.75%;
+}
+
+.menu_center_bottom_top{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px; 
+    justify-content: space-around;
+    
+    padding-left: 25.7%;
+    padding-right: 25.7%;
+}
+
+.icon{
+    position: absolute;
+}
+.logo-mona-2{
+    width: 12.5rem;
+    height: 4.17rem;
+}
+
+.margin_horizontal_5px{
+    margin-left: auto;
+    margin-right: auto;
+}
+.margin_top_20px{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/*aboutUs*/
+
+.menu_about_us{
+    display: flex;
+    height: 36.1%;
+    width: 100%;
+    margin-top: 3.5%;
+    
+    padding-left: 25.7%;
+    padding-right: 25.7%;
+}
+.img_aboutUs{
+    width: 50%;
+    height: 100%;
+}
+.description_aboutUs{
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    padding-left: 2.08%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*grid menu*/
+
+.item1 { grid-area: header;  display: flex;flex-direction: row;}
+.item2 { grid-area: menu; display: flex;flex-direction: row;}
+.item3 { grid-area: main; display: flex;flex-direction: row;}
+.item4 { grid-area: right;display: flex;flex-direction: row;}
+.item5 { grid-area: footer;  display: flex;flex-direction: row;}
+.item6 { grid-area: left;  display: flex;flex-direction: row;}
+
+
+.grid-container {
+    padding-left: 18.4%;
+    padding-right: 18.4%;
+    height: auto;
+    display: grid;
+    grid-template-areas:
+        'header menu main '
+        'right footer left';
+    gap: 10px;
+}
+
+.grid-description{
+    text-align:left;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 1.5% 0;
+  font-size: 2.1%;
+}
+
+
+/*banner_total*/
+.banner_total{
+    margin-top: 6.94%;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+.banner_total_img{
+    width: 100%;
+    filter: brightness(30%);
+    align-self: center;
+}
+
+
+.banner_total_title{
+    height: 18%;
+    width: 74.3%;
+    margin-left: 25%;
+    justify-content: space-between;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+}
+.banner_total_unit{
+    text-align: center;
+}
+
+
+/*comment*/
+
+.comment_box{
+    height: auto;
+    width: 100%;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.comment_img{
+    height: 6.25rem;
+    width: 6.25rem;
+}
+.comment_unit{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+}
+
+
+
+
+/*DangKyThongTin*/
+.dangKy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    
+    padding-left: 17.4%;
+    padding-right: 17.4%;
+    border-top: 1px solid #333333;
+}
+
+.dangKy_form{
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+}
+.form{
+    width: 70%;
+}
+.button_DK{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    font-size: small;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
+}
+/*Menu_bottom*/
+.menu_bottom{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #333333;
+    margin-top: 6.25rem;
+    padding-top: 5.2%;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
+}
+
+.menu_bottom_unit{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 25px;
+    word-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: #333333;
+}
+.font_size_small{
+    font-size: 0.7rem;
+}
+.font_size_medium{
+    font-size: 1.4rem;
+}
+.font_size_large{
+    font-size: 2.1rem;
+}
+/*MOBILE*/
+@media (max-width:600px){
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /***TOP***/
+    .menu_top{
+        width: 100%;
+    }
+    .menu_center_bottom_top{
+        display: none;
+    }
+    .menu_top_top{
+        display: none;
+    }
+    .logo-mona-2{
+        align-self: center;
+        justify-self: center;
+    }
+    .margin_top_20px{
+        display: none;
+    }
+    .search_menu{
+        display: none;
+    }
+   
+    /*
+
+
+
+    /*
+
+*/
+
+
+    /***ABOUTUS***/
+    .menu_about_us{
+        display: flex;
+        height: 36.1%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .img_aboutUs{
+        width: 100%;
+    }
+    .description_aboutUs{
+        width: 100%;
+    }
+
+
+    /***GRID***/
+    .grid-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    /*
+    .banner_total{
+        margin-top: 6.94%;
+        display: flex;
+        width: 100%;
+        align-self: center;
+    }
+    */
+
+    
+    .comment_box{
+        height: 24%;
+        width: 100%;
+        color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .dangKy{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-top: 1px solid #333333;
+    }
+    .dangKy_form{
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        width: 80%;
+    }
+    .button_DK{
+        width: 20%;
+        height: 4.5%;
+        position: absolute;
+        font-size: small;
+        font-weight: 600;
+        background-color: #C89979;
+        border: none;
+        color: white;
+    }
+
+
+
+    /*Menu_bottom*/
+    .menu_bottom{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333333;
+        margin-top: 6.25rem;
+        justify-content: space-around;
+        padding: 5.2%;
+        
+    }
+
+    .menu_bottom_unit{
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 25px;
+        word-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        background-color: #333333;
+    }
+}
