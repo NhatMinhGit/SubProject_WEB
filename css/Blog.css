@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+   
+}
+
+#header_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 360px;
+    background-color: #353535;
+    border: 0px 1px 0px 0px solid #5e5c5c;
+
+}
+
+#header_top a, i{
+    color: #ffff;
+}
+
+
+.header_top_contact{
+    display: flex;
+}
+
+.header_top_social_media{
+    display: flex;
+}
+
+.header_top_contact a, i{
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+#header_center{
+    display: flex;
+    justify-content: space-between;
+    background-color: #353535;
+    padding: 15px 360px;
+    align-items: center;
+    border: 1px solid #5e5c5c;
+}
+
+.header_center_item{
+    display: flex;
+}
+
+input{
+    border: none;
+    width: 340px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+   
+}
+
+.header_center_input{
+    margin-right: 180px;
+}
+
+button{
+    position: absolute;
+    background-color: #c89979;
+    border: none;
+    width: 50px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#header_menu_bottom{
+    display: flex;
+    background-color: #353535;
+    height: 50px;
+    align-items: center;
+    padding-left: 600px;
+    padding-right: auto;
+    font-size: 12px;
+    width: 100%;
+}
+
+
+.header_menu_bottom_item a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: #ffff;
+
+}
+
+
+
+.main-title{
+    display: flex;
+
+
+}
+
+.main-title a{
+    padding: 0 5px;
+    text-decoration: none;
+    
+}
+
+
+.main-title-select{
+    display: flex;
+}
+
+.main-title-select span{
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 355px;
+}
+.main-title a{
+    color: #686767;
+}
+
+.show-select{
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+.show-select select{
+    border: none;
+    border: 1px solid #c7c7c7;
+    width: 254px;
+    height: 35px;
+}
+
+
+
+.product_show_row_1{
+    display: flex;
+    justify-content: space-around;
+    border: 1px s;
+}
+
+.product_show_row_2{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.product_show_row_3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_bottom{
+    display: flex;
+    background-color: #353535;
+    flex-direction: row;
+}
+
+
+
+
