@@ -220,13 +220,12 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: auto;
-    
+    height: 9.375rem;
+    align-items: center;
     padding-left: 17.4%;
     padding-right: 17.4%;
     border-top: 1px solid #333333;
 }
-
 .dangKy_form{
     width: 50%;
     height: 100%;
@@ -248,8 +247,6 @@
 /*Menu_bottom*/
 .menu_bottom{
     display: flex;
-    height: auto;
-    width: 100%;
     background-color: #333333;
     margin-top: 6.25rem;
     padding-top: 5.2%;
@@ -264,7 +261,7 @@
     word-spacing: 2px;
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 100%;
     background-color: #333333;
 }
 .font_size_small{
@@ -277,7 +274,8 @@
     font-size: 2.1rem;
 }
 /*MOBILE*/
-@media (max-width:600px){
+
+@media only screen and (max-width:600px){
     #wrapper{
         display: flex;
         flex-direction: column;
@@ -289,13 +287,17 @@
     }
     .menu_center_bottom_top{
         display: none;
+        
+    }
+    .menu_center_top{
+        align-self: center;
+        width: 100%;
     }
     .menu_top_top{
         display: none;
     }
     .logo-mona-2{
-        align-self: center;
-        justify-self: center;
+       justify-self: center;
     }
     .margin_top_20px{
         display: none;
@@ -303,18 +305,12 @@
     .search_menu{
         display: none;
     }
-   
-    /*
 
 
 
-    /*
 
-*/
-
-
-    /***ABOUTUS***/
-    .menu_about_us{
+     /***ABOUTUS***/
+     .menu_about_us{
         display: flex;
         height: 36.1%;
         width: 100%;
@@ -335,14 +331,6 @@
     flex-direction: column;
     gap: 10px;
     }
-    /*
-    .banner_total{
-        margin-top: 6.94%;
-        display: flex;
-        width: 100%;
-        align-self: center;
-    }
-    */
 
     
     .comment_box{
@@ -355,6 +343,8 @@
     }
 
 
+
+    /*DangKy*/
     .dangKy{
         display: flex;
         flex-direction: column;
